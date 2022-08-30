@@ -1,55 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <Title>Endangered Species</Title>
-        <style>
-            body{
-                background-color:#FFD1AA ;
-                font-size:18px;
-            }
-            h1{
-                color: #003333;
-            }
-            h2{
-                color: #162955;
-            }
-            .endangered{
-                color: red;
-            }
-            .threatened{
-                color: orangered;
-            }
-            .scientific-name{
-                font-style: italic;
-            }
-        </style>
+	<head>
+		<title>Game Table</title>
+    	<style>
+    	    table{
+    	        font-size:18px;
+    	        background-color:AliceBlue;
+    	    }
+    	    #favorite{
+    	        background-color:green;
+    	    }
+    	    .game{
+    	        background-color:orange;   
+    	        color:white;
+    	    }
+    	</style>
+	</head>
 
-    </head>
-    <body>
-        <h1>Endangered Animals</h1>
-        <h2>Gray Bat</h2>
-        <ul>
-            <li class="scientific-name">Myotis Grisescens</li>
-            <li>Central and southeastern U.S.</li>
-            <li class="endangered">Endangered</li>
-        </ul>
-        <h2>Africa Elephant</h2>
-        <ul>
-            <li class="scientific-name">Loxodonta Africana</li>
-            <li>africa</li>
-            <li class="threatened">Threatened</li>
-        </ul>
-        <h2>Lowland Anoa</h2>
-        <ul>
-            <li class="scientific-name">Bubalus depressicornis</li>
-            <li>Indonesia</li>
-            <li class="endangered">Endangered</li>
-        </ul>
-        <h2>Mountain Anoa</h2>
-        <ul>
-            <li class="scientific-name">Bubalus qualesi</li>
-            <li>Indonesia</li>
-            <li class="endangered">Endangered</li>
-        </ul>
-    </body>
+	<body>
+		<table border="1">
+		    <tr>
+		        <th>Board Game Name</th>
+		        <th>Number of Players</th>
+		        <th>Who Owns the Game</th>
+		    </tr>
+		    <tr>
+		        <td class="game">Settlers of Catan</td>
+		        <td>3</td>
+		        <td>Zach</td>
+		    </tr>
+		    <tr>
+		        <td class="game" id="favorite">Monopoly</td>
+		        <td>6</td>
+		        <td>Kimmie</td>
+		    </tr>
+		    <tr>
+		        <td class="game">Checkers</td>
+		        <td>2</td>
+		        <td>Calvin</td>
+		    </tr>
+		</table>
+	</body>
 </html>
